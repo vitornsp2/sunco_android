@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo App</string>
+
+    <string name="title_section1">Smooch</string>
+    <string name="title_section2">Show My Conversations</string>
+    <string name="title_section3">Start a Conversation</string>
+    <string name="title_section4">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Smooch_demo_welcome">Welcome to Smooch</string>
+    <string name="Smooch_demo_show_conversation">Smooch Me</string>
+    <string name="Smooch_demo_intro">Smooch lets you build rich app-to-users messaging inside your apps and websites. Try out this demo app to see what it can do for you.</string>
+
+    <string name="Smooch_demo_integration_id">You can set your own integration id if you want to have a conversation with yourself.</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

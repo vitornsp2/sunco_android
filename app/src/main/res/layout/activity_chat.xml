@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Smooch_btnActionButton"
+    tools:context=".ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="5"
+        tools:listitem="@layout/chat_item_adapter" />
+
+    <LinearLayout
+        android:id="@+id/ll_input_msg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edt_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Digite sua mensagem"
+            android:ems="10"
+            android:hint="Digite aqui"
+            android:inputType="textMultiLine"
+            android:maxLength="3000"
+            android:minLines="1"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black_1"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/iv_attachment"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Inserir Arquivo"
+            android:src="@drawable/ic_plus" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_dot_divider"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_send"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="Enviar mensagem"
+            android:src="@drawable/ic_send" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/view_start_chat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/Smooch_btnActionButton"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Iniciar Chat"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

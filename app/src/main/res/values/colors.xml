@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Smooch_accent">#01ff5f</color>
+    <color name="Smooch_accentDark">#009A39</color>
+    <color name="Smooch_accentLight">#24FF75</color>
+
+    <!-- region Brand -->
+    <color name="brand_green">#00FF5F</color>
+    <color name="brand_black">#000000</color>
+    <color name="brand_white">#FFFFFF</color>
+    <color name="brand_red">#FF0040</color>
+    <!-- endregion -->
+
+    <!-- black -->
+    <color name="black_1">#000000</color>
+    <color name="black_2">#202020</color>
+    <color name="black_3">#333333</color>
+    <color name="black_4">#80000000</color>
+    <color name="black_5">#99000000</color>
+
+
+    <color name="gray_2">#727272</color>
+</resources>
+
